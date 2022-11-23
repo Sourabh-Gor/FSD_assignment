@@ -1,0 +1,75 @@
+a{
+    padding: 5px;
+}
+body{
+    background-color: #ECC5FB;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    padding-left: 20px;
+    font-size: large;
+}
+h1{
+    font-family: 'Poor Story', cursive;
+    font-size: 50px;
+}
+ol{
+    line-height: 30px;
+    margin-left: 50px;
+}
+h4{
+    font-size: x-large;
+}
+.column {
+    float: left;
+    width: 19%;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Indie Flower', cursive;
+}
+img{
+    border: 5px solid #555;
+}
+.game{
+    height: 250px;
+    width: 200px;
+}
+.GG{
+    font-family: 'Press Start 2P', cursive;
+}
+table{
+    border: dashed 1px grey;
+}
+a:visited{
+    color: #0F3460;
+}
+address:link{
+    color: #FDFDBD;
+}
+  .bg{
+    float: right;
+    background-image: url(business-man.png);
+    height: 128px;
+    width: 128px;
+  }
+  .list-group{
+    margin-left: 20px;
+  }
+.btn{
+    margin-top: 5px;
+}
+.css{
+    color: #F2E7D5;
+}
